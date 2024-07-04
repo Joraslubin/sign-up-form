@@ -11,13 +11,11 @@
 
 .container{
     display: flex;
-    width:100%;
     min-height:100vh;
     font-family: "Inter",sans-serif;
 }
 
 .sidebar{
-    width:50%;
     background: url("./img/aaron-burden-yzgF-AQt1sQ-unsplash.jpg");
     background-size: cover;
 }
@@ -29,7 +27,7 @@
     gap:.1em;
     font-size: 4rem;
     background-color: rgba(0,0,0,.15);
-    padding:.15em;
+    padding:.15em 1.5em;
     margin-top:2em;
 }
 
@@ -44,18 +42,14 @@
     color:#fff;
 }
 
-form{
-    background-color: #fff;
-}
-
 .form__container:not(.header){
-    padding:1.7em 5em;
+    padding:1.7em 3em;
 }
 
 .header.form__container{
     font-size:.85rem;
     background-color:rgba(0,0,0,.02);
-    padding:5em;
+    padding:5em 3em;
 }
 
 
@@ -92,12 +86,12 @@ label{
 }
 
 button[type="submit"]{
-    padding:.65em .9em;
+    padding:.55em;
     background-color:  #596D48;
     border:none;
     border-radius:.25rem;
     color:#fff;
-    box-shadow: 0 0px 2px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
     font-weight: bold;
     font-family: "inter",sans-serif;
     font-size: 1.1rem;
